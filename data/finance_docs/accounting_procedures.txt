@@ -1,0 +1,617 @@
+Accounting Procedures and Financial Controls
+
+Introduction:
+This document outlines the accounting procedures, internal controls, and financial processes that all employees must follow to ensure accurate financial reporting, compliance with regulations, and protection of company assets.
+
+General Accounting Principles:
+
+Fundamental Concepts:
+The company follows Generally Accepted Accounting Principles (GAAP) for all financial reporting and transactions. Key principles include:
+- Accrual basis accounting (revenue and expenses recorded when earned/incurred)
+- Matching principle (expenses matched to related revenues)
+- Conservatism (recognize losses immediately, gains when realized)
+- Consistency (use same methods year over year)
+- Materiality (focus on significant items)
+
+Accounting Period:
+- Fiscal year: January 1 through December 31
+- Monthly closing: Books close on last day of each month
+- Quarterly reporting: March 31, June 30, September 30, December 31
+- Annual audit: Completed by March 31 of following year
+
+Chart of Accounts:
+
+Account Structure:
+The company uses a standardized chart of accounts with the following structure:
+- 1000-1999: Assets
+- 2000-2999: Liabilities
+- 3000-3999: Equity
+- 4000-4999: Revenue
+- 5000-5999: Cost of Goods Sold
+- 6000-6999: Operating Expenses
+- 7000-7999: Other Income/Expense
+
+Account Numbering:
+Each account number contains 4 digits plus optional department code:
+- Format: XXXX-YYY (account-department)
+- Example: 6100-150 (Office Supplies - Marketing Department)
+- Department codes standardized across all accounts
+
+Creating New Accounts:
+New accounts require:
+- Business justification
+- Controller approval
+- Documentation in account master
+- Training for affected users
+- Update to COA documentation
+
+Accounts Payable:
+
+Invoice Processing:
+
+Receipt and Review:
+1. Vendor invoices received centrally by AP team
+2. Invoices matched to purchase orders (3-way match)
+3. Verify pricing, quantities, and terms
+4. Check for duplicate invoices
+5. Ensure proper account coding
+6. Obtain approval from department manager
+7. Enter into accounting system
+
+Invoice Coding:
+All invoices must include:
+- Vendor name and invoice number
+- Invoice date and due date
+- General ledger account code
+- Department or cost center
+- Amount and payment terms
+- Approver signature or electronic approval
+
+Invoice Approval Limits:
+- Up to $1,000: Department supervisor
+- $1,001 - $5,000: Department manager
+- $5,001 - $25,000: Director
+- $25,001 - $100,000: Vice President
+- Over $100,000: CFO or CEO
+
+Payment Processing:
+
+Payment Schedule:
+Invoices are processed according to payment terms:
+- Net 30: Paid within 30 days of invoice date
+- Net 15: Paid within 15 days
+- 2/10 Net 30: Paid within 10 days to capture discount
+- Due upon receipt: Paid immediately
+- Payment runs executed weekly on Wednesdays
+
+Payment Methods:
+- ACH/Wire Transfer: For amounts over $10,000 or international payments
+- Check: For amounts under $10,000 and domestic vendors
+- Credit Card: For small purchases and subscriptions under $5,000
+- Electronic payment portals: When required by vendor
+
+Payment Authorization:
+All payments require dual authorization:
+- First approval: Department manager (invoice approval)
+- Second approval: AP manager or Controller (payment release)
+- Segregation of duties enforced
+- Exception reports reviewed weekly
+
+Vendor Management:
+
+Vendor Setup:
+New vendors require:
+- Completed W-9 form (for tax reporting)
+- Vendor application with contact and banking information
+- Certificate of Insurance if applicable
+- Vendor agreement or contract
+- Credit check for significant relationships
+- Approval from Procurement and Finance
+
+Vendor Master Maintenance:
+- Annual review of active vendors
+- Update contact and payment information
+- Verify tax ID numbers
+- Remove inactive vendors (no activity 2+ years)
+- Monitor for duplicate vendors
+
+Vendor Reconciliation:
+Monthly vendor statement reconciliation:
+- Compare vendor statements to AP aging
+- Investigate and resolve discrepancies
+- Clear unapplied payments
+- Follow up on outstanding invoices
+- Document reconciliation in vendor file
+
+1099 Reporting:
+For tax compliance:
+- Track all payments to contractors and service providers
+- Verify W-9 information annually
+- Generate 1099 forms by January 31
+- File with IRS and state agencies
+- Distribute to vendors by required dates
+
+Accounts Receivable:
+
+Invoicing Procedures:
+
+Invoice Generation:
+1. Sales order approved and fulfilled
+2. Shipping documentation confirmed
+3. Invoice generated from billing system
+4. Review for accuracy (pricing, terms, customer info)
+5. Attach supporting documentation (contracts, POs)
+6. Deliver invoice to customer (email or mail)
+7. Record in accounting system
+
+Invoice Requirements:
+All customer invoices must include:
+- Company name and logo
+- Invoice number (sequential)
+- Invoice date
+- Customer name and billing address
+- Payment terms and due date
+- Itemized products/services
+- Quantities, prices, and extensions
+- Applicable taxes
+- Total amount due
+- Payment instructions (wire, check, credit card)
+
+Payment Terms:
+Standard payment terms by customer type:
+- Government: Net 30 or per contract
+- Enterprise customers: Net 30
+- Small business: Net 15
+- New customers: Prepayment or Net 15
+- International: Wire transfer in advance
+- Special terms require CFO approval
+
+Collections:
+
+Collection Process:
+Systematic approach to collecting receivables:
+- Day 0: Invoice sent to customer
+- Day 15: Reminder email for Net 30 terms
+- Day 31: First collection call
+- Day 45: Second collection call and email
+- Day 60: Final notice before escalation
+- Day 75: Executive escalation
+- Day 90: Legal action or collections agency
+
+Past Due Management:
+For overdue accounts:
+- Apply late fees per terms (1.5% per month)
+- Place account on credit hold (no new orders)
+- Escalate to sales manager
+- Offer payment plans if appropriate
+- Consider factoring or collections agency
+- Write off if deemed uncollectible
+
+Customer Communication:
+Collection calls should:
+- Be professional and courteous
+- Verify invoice received and approved
+- Identify any disputes or issues
+- Obtain commitment to pay with specific date
+- Document all conversations
+- Follow up in writing
+
+Credit Management:
+
+Credit Application:
+New customers complete credit application:
+- Business references
+- Bank references
+- Trade references
+- Financial statements (if applicable)
+- Personal guarantee for small businesses
+- Credit check through credit bureau
+
+Credit Limits:
+Establish credit limits based on:
+- Credit score and payment history
+- Financial strength and stability
+- Years in business
+- Industry and market conditions
+- Relationship and sales history
+- Risk tolerance
+
+Credit limits reviewed annually and adjusted as needed.
+
+Credit Hold:
+Accounts placed on hold when:
+- Payment 60+ days past due
+- Exceeds credit limit
+- Check returned for insufficient funds
+- Repeated payment issues
+- Bankruptcy or financial distress
+Release requires payment and manager approval.
+
+General Ledger:
+
+Journal Entries:
+
+Standard Journal Entries:
+Recurring monthly entries include:
+- Depreciation expense
+- Accrued expenses (payroll, benefits, utilities)
+- Prepaid amortization (insurance, rent)
+- Accrued revenue
+- Deferred revenue
+- Inventory adjustments
+
+Entry Requirements:
+All journal entries must include:
+- Entry number (auto-generated)
+- Date (posting date)
+- Description explaining purpose
+- Account numbers and descriptions
+- Debit and credit amounts (must balance)
+- Supporting documentation attached
+- Preparer name and date
+- Reviewer approval
+
+Entry Approval:
+- Standard recurring entries: Pre-approved template
+- Monthly accruals under $10,000: Accounting Manager
+- One-time entries under $25,000: Controller
+- Entries over $25,000: CFO approval
+- Year-end entries: CFO and external auditor review
+
+Account Reconciliations:
+
+Required Reconciliations:
+Monthly reconciliation required for:
+- All balance sheet accounts
+- Bank and credit card accounts
+- Intercompany accounts
+- Significant revenue and expense accounts
+- Inventory and fixed assets
+- Payroll and benefits
+
+Reconciliation Process:
+1. Download or prepare account detail
+2. Compare to supporting documentation (bank statements, sub-ledgers)
+3. Identify and investigate differences
+4. Prepare reconciling items and adjustments
+5. Document explanation for variances
+6. Obtain manager review and approval
+7. File reconciliation in monthly close folder
+8. Prepare adjustment entries if needed
+
+Reconciliation Timing:
+- Bank accounts: Within 5 business days of month end
+- Credit cards: Within 7 business days
+- Other balance sheet: Within 10 business days
+- Revenue and expense: Within 15 business days
+- Annual reconciliations: All accounts by January 31
+
+Fixed Assets:
+
+Asset Capitalization:
+
+Capitalization Policy:
+Assets are capitalized if they meet all criteria:
+- Purchased or constructed for business use
+- Useful life exceeds one year
+- Cost exceeds $5,000 per unit
+- Not intended for resale
+- Provides future economic benefit
+
+Asset Categories:
+- Land: Not depreciated
+- Buildings: 39 years straight-line
+- Leasehold improvements: Lesser of useful life or lease term
+- Machinery and equipment: 5-7 years
+- Computers and technology: 3-5 years
+- Furniture and fixtures: 7 years
+- Vehicles: 5 years
+
+Depreciation Methods:
+- Buildings and improvements: Straight-line
+- Equipment and machinery: Straight-line or accelerated
+- Vehicles: Straight-line
+- Technology: Straight-line (shorter useful lives)
+
+Asset Management:
+
+Asset Tracking:
+Maintain fixed asset register with:
+- Asset tag number (physical tag attached)
+- Description and category
+- Location and responsible employee
+- Purchase date and vendor
+- Original cost and useful life
+- Accumulated depreciation
+- Net book value
+- Warranty and maintenance information
+
+Annual Physical Inventory:
+- Conduct annual fixed asset verification
+- Compare physical count to asset register
+- Investigate missing assets
+- Update locations and custodians
+- Write off fully depreciated assets no longer in use
+- Adjust register for disposals and scrapping
+
+Asset Disposal:
+Disposing of assets requires:
+- Disposal request form completed
+- Management approval
+- Removal from asset register
+- Calculation of gain or loss
+- Certificate of destruction if required
+- Update insurance records
+
+Inventory Accounting:
+
+Inventory Valuation:
+
+Valuation Method:
+Company uses weighted average cost method:
+- Calculate average cost per unit
+- Include purchase price plus freight and duties
+- Exclude sales tax
+- Recompute average with each purchase
+- Value ending inventory at average cost
+
+Inventory Categories:
+- Raw materials: Components and supplies
+- Work in process: Partially completed goods
+- Finished goods: Completed products ready for sale
+- Supplies: Indirect materials and consumables
+
+Lower of Cost or Market:
+- Review inventory quarterly for obsolescence
+- Write down to market value if lower than cost
+- Consider age, condition, and salability
+- Document write-down justification
+- Obtain management approval for material write-offs
+
+Inventory Controls:
+
+Physical Inventory:
+- Annual full physical count (December 31)
+- Cycle counting throughout year (ABC classification)
+- Reconcile counts to perpetual records
+- Investigate and resolve variances
+- Adjust inventory records
+- Report results to management
+
+Inventory Procedures:
+- Receiving: Count and inspect upon receipt
+- Storage: Organize by category, first-in-first-out (FIFO)
+- Picking: Use pick lists, verify quantities
+- Shipping: Pack and verify against sales orders
+- Returns: Inspect and return to inventory if saleable
+
+Shrinkage and Loss:
+- Calculate shrinkage (physical vs. perpetual)
+- Investigate causes (theft, damage, errors)
+- Implement controls to reduce shrinkage
+- Write off obsolete or damaged inventory
+- Maintain acceptable shrinkage rate (<2%)
+
+Month-End Close Process:
+
+Close Timeline:
+
+Day 1-3 (Business Days After Month End):
+- Reconcile cash and credit card accounts
+- Review and approve pending transactions
+- Process month-end payroll accruals
+- Record depreciation expense
+- Post standard monthly journal entries
+
+Day 4-7:
+- Complete all account reconciliations
+- Review significant revenue and expense variances
+- Prepare accrual and prepayment entries
+- Reconcile intercompany accounts
+- Close subledgers (AR, AP, inventory, fixed assets)
+
+Day 8-10:
+- Management review of financial results
+- Finalize adjusting journal entries
+- Prepare financial statements (balance sheet, income statement, cash flow)
+- Complete variance analysis vs. budget
+- Package close documentation
+
+Close Checklist:
+Accounting Manager maintains checklist confirming:
+- All bank accounts reconciled
+- All balance sheet accounts reconciled
+- All journal entries posted and approved
+- All subledgers closed and reconciled
+- Financial statements prepared
+- Variances explained
+- Documentation complete
+- Close summary presented to CFO
+
+Financial Reporting:
+
+Monthly Financial Statements:
+
+Statement Package:
+Complete financial package includes:
+- Balance Sheet (assets, liabilities, equity)
+- Income Statement (revenue and expenses by department)
+- Cash Flow Statement (operating, investing, financing)
+- Budget vs. Actual with variance analysis
+- Key performance indicators (KPIs)
+- Management commentary and explanations
+
+Distribution:
+- CFO: Day 10 after month end
+- CEO and Executive Team: Day 12
+- Board of Directors: Quarterly
+- Department Heads: Limited package Day 15
+- External parties: Only with CFO approval
+
+Variance Analysis:
+Explain significant variances:
+- Revenue variances over $50,000 or 10%
+- Expense variances over $25,000 or 10%
+- Identify one-time vs. recurring items
+- Provide trend analysis
+- Forecast impact on year-end results
+
+Financial Analysis:
+
+Key Metrics:
+Monitor critical financial metrics:
+- Revenue growth rate
+- Gross profit margin
+- Operating expense ratio
+- EBITDA and net profit margin
+- Days sales outstanding (DSO)
+- Inventory turnover
+- Current ratio and quick ratio
+- Debt-to-equity ratio
+- Return on assets (ROA)
+- Return on equity (ROE)
+
+Trend Analysis:
+- Month-over-month comparison
+- Year-over-year comparison
+- Rolling 12-month trends
+- Seasonality adjustments
+- Industry benchmarking
+
+Forecasting:
+- Monthly reforecast of year-end results
+- Quarterly forecast updates
+- Three-year strategic financial plan
+- Scenario analysis (best/worst/expected)
+
+Internal Controls:
+
+Segregation of Duties:
+
+Key Segregations:
+- Authorization vs. execution
+- Record keeping vs. custody
+- Reconciliation vs. transaction processing
+- Different people for: Ordering, receiving, approving, paying
+
+Examples:
+- Person approving invoices doesn't process payments
+- Person receiving goods doesn't enter receiving records
+- Person reconciling accounts doesn't process transactions
+- Person with custody of assets doesn't maintain records
+
+Compensating Controls:
+When segregation not possible:
+- Enhanced management oversight
+- Detailed transaction review
+- Automated system controls
+- Regular external reviews
+
+Authorization Controls:
+
+Approval Matrix:
+- Capital expenditures: Per capital budget policy
+- Operating expenses: Per budget approval limits
+- Contracts: Based on value and term
+- Write-offs: Controller approval required
+- Journal entries: Based on amount and type
+
+Documentation Requirements:
+- All transactions supported by documentation
+- Approvals documented and traceable
+- Retention per record retention policy
+- Electronic approvals via workflow system
+- Manual approvals scanned and filed
+
+Access Controls:
+
+System Access:
+- Role-based access (least privilege)
+- Segregation enforced in system
+- Periodic access reviews (quarterly)
+- Terminated employee access removed immediately
+- Vendor and consultant access temporary
+
+Audit:
+
+Internal Audit:
+- Annual internal control assessment
+- Testing of key controls
+- Process improvement recommendations
+- Follow-up on prior findings
+- Report to Audit Committee
+
+External Audit:
+- Annual financial statement audit
+- Interim reviews and agreed-upon procedures
+- Management letter with recommendations
+- Audit report and opinion
+- Audit findings resolution
+
+Compliance:
+
+Tax Compliance:
+
+Corporate Income Tax:
+- Quarterly estimated tax payments
+- Annual tax return filing (by March 15)
+- State and local tax filings
+- Transfer pricing documentation
+- Tax provision and reporting
+
+Sales and Use Tax:
+- Monthly sales tax returns
+- Use tax accruals and remittance
+- Exemption certificate management
+- Multi-state compliance
+- Audit support and representation
+
+Payroll Taxes:
+- Semi-weekly federal tax deposits
+- Quarterly Form 941 filing
+- Annual Form 940 (FUTA) filing
+- State unemployment and disability
+- Year-end W-2 and filing
+
+Regulatory Compliance:
+
+SOX Compliance:
+For public companies or preparing for IPO:
+- Document key processes and controls
+- Test operating effectiveness
+- Remediate control deficiencies
+- Management certification
+- External audit attestation
+
+Industry Regulations:
+- GAAP compliance for financial reporting
+- SEC regulations if publicly traded
+- Industry-specific requirements
+- International standards (IFRS) if applicable
+- Privacy regulations (GDPR, CCPA)
+
+Training and Support:
+
+Accounting Training:
+- New hire orientation on policies and procedures
+- System training for accounting software
+- Annual policy updates and refreshers
+- Technical accounting topics as needed
+- Professional certification support (CPA, CMA)
+
+Resources:
+- Accounting procedures manual (this document)
+- System user guides and job aids
+- Chart of accounts documentation
+- Financial policies library
+- Finance intranet portal
+
+Support:
+Questions about accounting procedures:
+- Email: accounting@company.com
+- Phone: Ext. 5200
+- Accounting Manager: ext. 5201
+- Controller: ext. 5100
+- CFO: ext. 5000
+
+Remember: Accurate financial records and strong internal controls are essential for making informed business decisions and maintaining stakeholder trust.

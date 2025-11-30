@@ -1,0 +1,85 @@
+Software Access and Licensing Policy
+
+This document outlines software access, licensing, and installation procedures.
+
+Standard Software Suite:
+All employees receive access to:
+- Microsoft Office 365 (Word, Excel, PowerPoint, Outlook, Teams)
+- Slack for team communication
+- Zoom for video conferencing
+- Google Chrome and Firefox browsers
+- Adobe Acrobat Reader
+- Antivirus software (company-managed)
+
+Department-Specific Software:
+- Engineering: VS Code, Git, Docker, Kubernetes tools
+- Design: Adobe Creative Suite, Figma, Sketch
+- Marketing: HubSpot, Google Analytics, social media tools
+- Finance: QuickBooks, Excel advanced features
+- HR: HRIS system, payroll software
+
+Software Request Process:
+1. Check approved software list in IT portal
+2. If not listed, submit software request form
+3. Include business justification
+4. Manager approval required
+5. IT reviews for security and compatibility
+6. Procurement handles licensing if approved
+7. IT installs software within 2 business days
+
+License Management:
+- All software licenses tracked by IT
+- Annual license renewals managed centrally
+- Unused licenses reclaimed when employees leave
+- License compliance audits conducted quarterly
+
+Cloud Software:
+- SaaS applications require IT approval
+- Security review for all cloud services
+- Single Sign-On (SSO) preferred when available
+- Data residency requirements considered
+
+Development Tools:
+- Engineers have access to development environments
+- Version control through company Git server
+- CI/CD tools available for engineering teams
+- Test environments separate from production
+
+Access Levels:
+- Standard User: Basic software access
+- Power User: Additional tools for specific roles
+- Administrator: IT staff only, requires approval
+- Developer: Development tools and environments
+
+Software Updates:
+- Automatic updates enabled for security patches
+- Major version updates scheduled quarterly
+- Users notified 1 week before major updates
+- Critical security updates applied immediately
+
+Prohibited Software:
+- Peer-to-peer file sharing applications
+- Unauthorized remote access tools
+- Software with known security vulnerabilities
+- Personal cloud storage (use company-approved solutions)
+
+Software Removal:
+- Unused software removed to free licenses
+- IT can remove software for security reasons
+- Personal software must be removed from company devices
+- Contact IT before removing any software
+
+Cost Management:
+- Software costs charged to requesting department
+- Annual software budget review
+- Open source alternatives considered when appropriate
+- Volume licensing discounts pursued
+
+Compliance:
+- All software must comply with company security policies
+- License agreements reviewed by Legal
+- Export control regulations considered
+- Data privacy requirements verified
+
+Questions? Contact IT at it-support@company.com
+

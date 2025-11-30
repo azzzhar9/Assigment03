@@ -1,0 +1,155 @@
+{
+  "test_queries": [
+    {
+      "id": 1,
+      "query": "What are the vacation leave policies?",
+      "expected_intent": "HR",
+      "category": "HR - Leave Policy"
+    },
+    {
+      "id": 2,
+      "query": "How do I reset my password?",
+      "expected_intent": "Tech",
+      "category": "Tech - Account Access"
+    },
+    {
+      "id": 3,
+      "query": "What is the expense reimbursement process?",
+      "expected_intent": "Finance",
+      "category": "Finance - Expenses"
+    },
+    {
+      "id": 4,
+      "query": "What health insurance benefits are available?",
+      "expected_intent": "HR",
+      "category": "HR - Benefits"
+    },
+    {
+      "id": 5,
+      "query": "My email is not working, how do I fix it?",
+      "expected_intent": "Tech",
+      "category": "Tech - Troubleshooting"
+    },
+    {
+      "id": 6,
+      "query": "When will I receive payment for my invoice?",
+      "expected_intent": "Finance",
+      "category": "Finance - Payments"
+    },
+    {
+      "id": 7,
+      "query": "How does the performance review process work?",
+      "expected_intent": "HR",
+      "category": "HR - Performance"
+    },
+    {
+      "id": 8,
+      "query": "I need access to the CRM system, how do I request it?",
+      "expected_intent": "Tech",
+      "category": "Tech - System Access"
+    },
+    {
+      "id": 9,
+      "query": "What are the budget approval limits?",
+      "expected_intent": "Finance",
+      "category": "Finance - Budget"
+    },
+    {
+      "id": 10,
+      "query": "What is the parental leave policy?",
+      "expected_intent": "HR",
+      "category": "HR - Leave Policy"
+    },
+    {
+      "id": 11,
+      "query": "How do I submit a software installation request?",
+      "expected_intent": "Tech",
+      "category": "Tech - Software"
+    },
+    {
+      "id": 12,
+      "query": "What documentation is needed for expense reimbursement?",
+      "expected_intent": "Finance",
+      "category": "Finance - Expenses"
+    },
+    {
+      "id": 13,
+      "query": "I'm having trouble connecting to the VPN",
+      "expected_intent": "Tech",
+      "category": "Tech - Troubleshooting"
+    },
+    {
+      "id": 14,
+      "query": "What is the onboarding process for new employees?",
+      "expected_intent": "HR",
+      "category": "HR - Onboarding"
+    },
+    {
+      "id": 15,
+      "query": "How are invoices processed and when are they paid?",
+      "expected_intent": "Finance",
+      "category": "Finance - Invoices"
+    },
+    {
+      "id": 16,
+      "query": "What should I do if my computer is running slowly?",
+      "expected_intent": "Tech",
+      "category": "Tech - Troubleshooting"
+    },
+    {
+      "id": 17,
+      "query": "Can you tell me about the 401(k) retirement plan?",
+      "expected_intent": "HR",
+      "category": "HR - Benefits"
+    },
+    {
+      "id": 18,
+      "query": "What is the process for budget modifications mid-year?",
+      "expected_intent": "Finance",
+      "category": "Finance - Budget"
+    },
+    {
+      "id": 19,
+      "query": "I need help with a printer that won't print",
+      "expected_intent": "Tech",
+      "category": "Tech - Troubleshooting"
+    },
+    {
+      "id": 20,
+      "query": "What is the code of conduct policy?",
+      "expected_intent": "HR",
+      "category": "HR - Workplace Conduct"
+    },
+    {
+      "id": 21,
+      "query": "How do I request a new vendor be set up for payments?",
+      "expected_intent": "Finance",
+      "category": "Finance - Vendor Management"
+    },
+    {
+      "id": 22,
+      "query": "What software licenses are available for employees?",
+      "expected_intent": "Tech",
+      "category": "Tech - Software"
+    },
+    {
+      "id": 23,
+      "query": "What is the recruitment process for open positions?",
+      "expected_intent": "HR",
+      "category": "HR - Recruitment"
+    },
+    {
+      "id": 24,
+      "query": "I have a question about my benefits and expenses",
+      "expected_intent": "Unknown",
+      "category": "Edge Case - Multi-domain"
+    },
+    {
+      "id": 25,
+      "query": "What's the weather like today?",
+      "expected_intent": "Unknown",
+      "category": "Edge Case - Unrelated Query"
+    }
+  ]
+}
+

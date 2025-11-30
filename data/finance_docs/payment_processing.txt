@@ -1,0 +1,199 @@
+Payment Processing Procedures
+
+This document outlines procedures for processing various types of payments.
+
+Payment Types:
+
+1. Vendor Payments:
+- Processed through Accounts Payable
+- Based on approved invoices
+- Follow payment terms (Net 30, etc.)
+- Weekly payment runs
+
+2. Employee Expenses:
+- Reimbursed via expense reports
+- Processed within 10 days of approval
+- Paid via payroll direct deposit
+- See Expense Policy for details
+
+3. Payroll:
+- Bi-weekly payroll processing
+- Direct deposit to employee accounts
+- Pay stubs available in HR portal
+- Tax withholdings as per employee elections
+
+4. Contractor Payments:
+- Based on approved invoices or timesheets
+- 1099 issued for amounts over $600/year
+- Processed similar to vendor payments
+- Requires contractor agreement on file
+
+Payment Methods:
+
+ACH Transfer:
+- Preferred method for regular payments
+- Lower cost and faster processing
+- Requires vendor banking information
+- Typically 1-2 business days
+
+Wire Transfer:
+- For large amounts or urgent payments
+- International wire transfers available
+- Higher fees apply
+- Same-day or next-day processing
+
+Check:
+- For vendors without electronic payment
+- Mailed to vendor address on file
+- Requires check stock and signature
+- 3-5 business days for delivery
+
+Credit Card:
+- For small purchases or subscriptions
+- Company credit cards available
+- Monthly reconciliation required
+- Immediate payment
+
+Payment Schedule:
+
+Regular Payments:
+- Weekly: Every Tuesday
+- Cut-off: Previous Friday 5 PM
+- Processed: Tuesday morning
+- Received: Wednesday-Thursday
+
+Urgent Payments:
+- Same-day processing available
+- Requires manager and Finance approval
+- Additional fees may apply
+- Use only for true emergencies
+
+International Payments:
+- Additional 2-3 business days
+- Currency conversion at time of payment
+- Bank fees may apply
+- Requires additional information
+
+Payment Authorization:
+
+Approval Requirements:
+- All payments require appropriate approval
+- Approval levels based on amount
+- Must match approved budget
+- Invoice must be approved
+
+Payment Limits:
+- Under $1,000: Manager approval
+- $1,000-$5,000: Department head
+- $5,000-$25,000: CFO
+- Over $25,000: CEO
+
+Dual Authorization:
+- Required for payments over $10,000
+- Two authorized signers
+- Prevents fraud and errors
+- Additional security measure
+
+Payment Processing Steps:
+
+1. Invoice Received:
+- Logged in accounting system
+- Assigned invoice number
+- Date stamped
+
+2. Verification:
+- Match to purchase order (if applicable)
+- Verify amounts and calculations
+- Check for duplicates
+- Confirm approval
+
+3. Approval:
+- Route to appropriate approver
+- Approver reviews and approves
+- Rejected invoices returned with reason
+
+4. Payment Setup:
+- Select payment method
+- Enter payment details
+- Schedule payment date
+- Generate payment file
+
+5. Execution:
+- Process payment file
+- Send to bank or print check
+- Record in accounting system
+- Generate confirmation
+
+6. Reconciliation:
+- Match bank statement
+- Verify all payments cleared
+- Investigate discrepancies
+- Update records
+
+Payment Issues:
+
+Failed Payments:
+- Insufficient funds (rare)
+- Incorrect banking information
+- Bank rejection
+- Contact vendor immediately
+
+Payment Disputes:
+- Vendor claims non-payment
+- Verify payment status
+- Provide payment confirmation
+- Resolve discrepancies
+
+Stop Payments:
+- Requested by vendor or company
+- Fees may apply
+- Requires authorization
+- Process through bank
+
+Payment Records:
+
+Documentation:
+- All payments documented
+- Invoices and approvals retained
+- Payment confirmations saved
+- Audit trail maintained
+
+Retention:
+- Records kept for 7 years
+- Digital storage preferred
+- Accessible for audits
+- Secure storage required
+
+Reporting:
+
+Payment Reports:
+- Payments by vendor
+- Payments by period
+- Payment method summary
+- Outstanding payments
+
+Access:
+- Finance: Full access
+- Department managers: Department payments
+- Executives: Summary reports
+
+Security:
+
+Payment Security:
+- Segregation of duties
+- Dual authorization for large amounts
+- Regular reconciliation
+- Fraud monitoring
+
+Banking Security:
+- Secure banking relationships
+- Multi-factor authentication
+- Regular account monitoring
+- Immediate fraud reporting
+
+Contact Information:
+
+Payment Questions: ap@company.com
+Urgent Payments: finance@company.com
+Banking Issues: treasury@company.com
+

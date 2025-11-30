@@ -1,0 +1,98 @@
+IT Support Guide
+
+Our IT Support team is here to help with all technical issues. This guide covers common support scenarios and how to get help.
+
+Getting Support:
+- Submit ticket through IT Support Portal: support.company.com
+- Email: it-support@company.com
+- Phone: Ext. 1234 (internal) or 1-800-XXX-XXXX (external)
+- Chat: Available 8 AM - 6 PM EST via support portal
+- Emergency: Call IT on-call number for critical issues
+
+Support Hours:
+- Regular Support: Monday-Friday, 8:00 AM - 6:00 PM EST
+- Extended Support: Available for critical systems
+- On-Call: 24/7 for production system emergencies
+
+Common Issues and Solutions:
+
+1. Password Reset:
+- Use self-service password reset portal
+- Click "Forgot Password" on login page
+- Follow email instructions
+- Contact IT if self-service doesn't work
+
+2. Email Issues:
+- Check internet connection first
+- Clear browser cache for webmail
+- Restart email client (Outlook, etc.)
+- Check if email server is down (status.company.com)
+
+3. Software Installation:
+- Request software through IT portal
+- Approved software list available in portal
+- IT will install within 2 business days
+- Some software requires manager approval
+
+4. Hardware Issues:
+- Report hardware problems immediately
+- IT will assess and repair or replace
+- Loaner equipment available if needed
+- Warranty coverage for company devices
+
+5. Network Access:
+- VPN access required for remote work
+- VPN client available for download
+- Two-factor authentication required
+- Contact IT if VPN connection fails
+
+6. Printer Issues:
+- Check printer status and paper/toner
+- Restart printer
+- Clear print queue if needed
+- Contact IT for network printer issues
+
+Account Management:
+- New employee accounts created within 24 hours of HR notification
+- Account access based on role and department
+- Access changes require manager approval
+- Deactivated accounts removed within 48 hours of termination
+
+Security Requirements:
+- Strong passwords required (12+ characters, mixed case, numbers, symbols)
+- Password change required every 90 days
+- Two-factor authentication mandatory
+- No sharing of passwords or accounts
+- Report security incidents immediately
+
+Software Licenses:
+- Company provides licenses for standard software
+- Specialized software requires business justification
+- License renewals handled by IT
+- Unauthorized software installation prohibited
+
+Device Management:
+- All company devices enrolled in MDM (Mobile Device Management)
+- Personal devices can access company email with approval
+- Company devices must be returned upon termination
+- Lost or stolen devices must be reported immediately
+
+Backup and Recovery:
+- Company data automatically backed up daily
+- Personal files on company devices backed up
+- File recovery available for last 30 days
+- Contact IT for recovery requests
+
+Training Resources:
+- IT training portal with video tutorials
+- Monthly IT office hours for questions
+- Knowledge base articles in support portal
+- New employee IT orientation session
+
+Escalation Process:
+1. Submit ticket through portal
+2. IT responds within 4 business hours
+3. If unresolved, ticket escalated to senior technician
+4. Critical issues escalated immediately
+5. Manager can escalate urgent business-impacting issues
+

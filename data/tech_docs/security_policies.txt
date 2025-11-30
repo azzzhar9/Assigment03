@@ -1,0 +1,348 @@
+Information Security Policies and Procedures
+
+Introduction:
+This document outlines the company's information security policies, procedures, and best practices that all employees must follow to protect company data, systems, and information assets.
+
+Acceptable Use Policy:
+
+Company IT Resources:
+All company-provided technology resources including computers, networks, software, email, and internet access are to be used primarily for business purposes. Limited personal use is permitted provided it does not interfere with work responsibilities or violate company policies.
+
+Prohibited Activities:
+- Accessing, storing, or distributing illegal, offensive, or inappropriate content
+- Installing unauthorized software or hardware
+- Circumventing security controls or access restrictions
+- Using company resources for personal business or profit
+- Sharing confidential company information externally without authorization
+- Engaging in activities that could damage company reputation
+- Downloading copyrighted materials without proper licensing
+- Using resources for political campaigning or religious proselytizing
+
+Internet and Email Usage:
+
+Acceptable Internet Use:
+- Work-related research and information gathering
+- Professional development and training
+- Business communication with clients and partners
+- Limited personal use during breaks (news, banking, shopping)
+- Social media for business purposes with management approval
+
+Unacceptable Internet Use:
+- Accessing adult, violent, or hate-related content
+- Streaming video or audio for entertainment (non-business)
+- Online gaming during work hours
+- Excessive personal browsing affecting productivity
+- Downloading large files for personal use
+- Peer-to-peer file sharing
+- Visiting known malicious or suspicious websites
+
+Email Best Practices:
+- Use professional language and tone
+- Include clear subject lines
+- Avoid sending confidential information without encryption
+- Be cautious with Reply All
+- Do not open attachments from unknown senders
+- Report suspicious emails to IT Security
+- Use company email signature standards
+- Avoid forwarding chain emails or spam
+
+Password Security:
+
+Password Requirements:
+All system passwords must meet minimum security standards:
+- Minimum 12 characters in length
+- Include uppercase and lowercase letters
+- Include at least one number
+- Include at least one special character (!@#$%^&*)
+- Cannot contain username or common words
+- Cannot reuse previous 10 passwords
+- Must be changed every 90 days
+
+Password Protection:
+- Never share passwords with anyone, including IT staff
+- Do not write passwords down or store in plain text
+- Use unique passwords for different systems
+- Do not use personal information in passwords
+- Enable password manager for secure storage
+- Change password immediately if compromise suspected
+- Use passphrases for easier memorization (e.g., "Coffee&Donuts2Morning!")
+
+Multi-Factor Authentication (MFA):
+MFA is required for:
+- All remote access (VPN, webmail, cloud applications)
+- Administrative accounts and privileged access
+- Financial systems and sensitive applications
+- Customer data access
+Employees must register MFA within 7 days of account creation.
+
+Account Security:
+
+User Account Responsibilities:
+- Keep account credentials secure and confidential
+- Log out when leaving workstation unattended
+- Enable screen lock with password protection (max 5 minutes)
+- Report lost or stolen devices within 24 hours
+- Do not allow others to use your account
+- Review account activity regularly for unauthorized access
+- Complete annual security awareness training
+
+Account Lockout:
+Accounts are automatically locked after 5 failed login attempts. Lockouts last 30 minutes or until IT resets. Repeated lockouts may indicate security incident requiring investigation.
+
+Account Termination:
+Upon employee termination or transfer:
+- Access is immediately revoked
+- Passwords are changed on shared accounts
+- Files and data are archived or transferred
+- Devices are returned and wiped
+- Email is forwarded per retention policy
+
+Data Classification and Handling:
+
+Data Classification Levels:
+
+Public:
+- Information intended for public consumption
+- Marketing materials, press releases
+- Published website content
+- No special handling required
+
+Internal:
+- Information for internal use only
+- Non-sensitive business communications
+- General policies and procedures
+- Protect from external disclosure
+
+Confidential:
+- Sensitive business information
+- Employee personal information
+- Customer data and contracts
+- Financial reports and projections
+- Requires encryption when transmitted
+- Access limited to authorized personnel
+
+Restricted:
+- Highly sensitive information
+- Trade secrets and intellectual property
+- Executive communications
+- Legal matters
+- Security credentials and architecture
+- Requires highest level of protection
+- Access by business need only
+
+Data Handling Requirements:
+
+Storage:
+- Confidential/Restricted data must be stored on secure company systems
+- Do not store sensitive data on personal devices
+- Use encrypted storage for mobile devices
+- Backup critical data regularly
+- Follow data retention policies
+
+Transmission:
+- Encrypt confidential/restricted data in transit
+- Use secure file transfer methods (SFTP, encrypted email)
+- Do not send sensitive data to personal email
+- Verify recipient before sending confidential information
+- Use password protection for sensitive attachments
+
+Disposal:
+- Shred physical documents containing sensitive information
+- Wipe or destroy electronic media before disposal
+- Use certified destruction services for confidential materials
+- Delete data securely (not just to Recycle Bin)
+- Follow data retention requirements before deletion
+
+Device Security:
+
+Workstation Security:
+- Keep operating system and software updated
+- Install only approved software
+- Enable firewall and antivirus protection
+- Encrypt hard drives on laptops
+- Use cable locks in public areas
+- Report lost or stolen devices immediately
+- Do not leave devices unattended in public
+
+Mobile Device Security:
+All devices accessing company resources must:
+- Have passcode/biometric lock enabled
+- Be enrolled in Mobile Device Management (MDM)
+- Keep OS and apps updated
+- Install only approved applications
+- Enable remote wipe capability
+- Not be jailbroken or rooted
+- Use encryption for data storage
+
+Removable Media:
+- USB drives and external storage require approval
+- Scan all removable media for malware before use
+- Encrypt confidential data on removable media
+- Do not use personal USB drives on company systems
+- Dispose of old media securely
+- Report lost removable media containing company data
+
+Remote Work Security:
+
+Home Network Security:
+- Use secure WiFi with WPA2/WPA3 encryption
+- Change default router passwords
+- Keep router firmware updated
+- Separate work devices on guest network if possible
+- Use VPN for all work activities
+- Secure home office from unauthorized access
+
+Public WiFi:
+- Avoid public WiFi for work when possible
+- Always use VPN when on public networks
+- Do not access sensitive data on public WiFi
+- Disable file sharing when on public networks
+- Verify network name before connecting
+- Use mobile hotspot as safer alternative
+
+Video Conferencing Security:
+- Use meeting passwords and waiting rooms
+- Don't share meeting links publicly
+- Verify participant identities
+- Mute when not speaking
+- Be aware of background and surroundings
+- Record only with participants' knowledge
+- Lock meetings once all participants joined
+
+Incident Response:
+
+Security Incident Types:
+- Lost or stolen devices
+- Suspected malware infection
+- Phishing or social engineering attempts
+- Unauthorized access or data breach
+- System compromise or intrusion
+- Insider threats or policy violations
+
+Incident Reporting:
+All employees must immediately report security incidents:
+1. Contact IT Security: security@company.com or ext. 4911
+2. Preserve evidence (don't delete, don't investigate)
+3. Document what occurred and when
+4. Follow instructions from Security team
+5. Complete incident report form
+6. Cooperate with investigation
+
+Response Procedures:
+Upon incident detection:
+- Contain the incident (disconnect from network if needed)
+- Security team assesses scope and impact
+- Notify affected parties as required
+- Remediate vulnerabilities
+- Document lessons learned
+- Update policies and controls
+
+Physical Security:
+
+Office Access:
+- Badge required for building entry
+- Do not share access badges
+- Report lost badges immediately
+- Do not allow tailgating (letting others in behind you)
+- Escort visitors and require visitor badges
+- Report suspicious individuals to Security
+
+Desk Security:
+- Lock sensitive documents when away from desk
+- Don't leave confidential information visible
+- Shred documents before disposal
+- Lock computer when stepping away
+- Store valuables securely
+- Clean desk policy for confidential areas
+
+Visitor Management:
+- All visitors must sign in and wear visitor badges
+- Visitors must be escorted at all times
+- Do not discuss confidential matters with visitors present
+- Ensure visitors sign NDAs if appropriate
+- Report unescorted visitors to Security
+
+Social Engineering and Phishing:
+
+Common Social Engineering Tactics:
+- Pretexting (creating false scenario to gain information)
+- Phishing emails with malicious links or attachments
+- Phone calls claiming to be IT support requesting credentials
+- Urgent requests to wire money or change payment info
+- Impersonation of executives or authority figures
+- Baiting with USB drives or downloads
+
+Red Flags:
+- Requests for passwords or sensitive information
+- Urgency or threats ("account will be locked")
+- Unexpected attachments or links
+- Spelling and grammar errors
+- Mismatched email addresses
+- Too good to be true offers
+- Requests to bypass normal procedures
+
+Protection Strategies:
+- Verify identity through known channels
+- Never provide credentials via email or phone
+- Hover over links to check actual URL
+- Check sender email address carefully
+- When in doubt, ask IT Security
+- Report suspicious communications
+- Complete security awareness training
+
+Compliance and Enforcement:
+
+Policy Compliance:
+All employees must:
+- Read and acknowledge security policies annually
+- Complete mandatory security training
+- Follow all security procedures
+- Report policy violations
+- Cooperate with security audits
+
+Policy Violations:
+Violations may result in:
+- Verbal or written warning
+- Additional training requirements
+- Suspension of system access
+- Termination of employment
+- Legal action if warranted
+
+Security violations are taken seriously as they can put the company and our customers at risk.
+
+Security Awareness Training:
+
+Required Training:
+- New hire security orientation (within 30 days)
+- Annual security awareness refresh
+- Phishing simulation exercises (quarterly)
+- Role-specific training for privileged users
+- Incident response training for IT staff
+
+Training Topics:
+- Password security and MFA
+- Phishing and social engineering
+- Data classification and handling
+- Device security and encryption
+- Remote work security
+- Incident reporting
+- Privacy and compliance
+
+Acknowledgment:
+Employees must acknowledge understanding of security policies and agree to comply. Acknowledgment is documented in employee record and reviewed annually.
+
+Questions and Support:
+
+Security Questions:
+Contact the Security team for guidance:
+- Email: security@company.com
+- Phone: Ext. 4911
+- Security portal: security.company.com
+
+Report Security Issues:
+- Suspicious emails: Forward to phishing@company.com
+- Lost devices: Call ext. 4911 immediately
+- Security incidents: Email security@company.com
+- Policy questions: Email security-policy@company.com
+
+Remember: Security is everyone's responsibility. If you see something suspicious, say something!

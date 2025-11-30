@@ -1,0 +1,658 @@
+Network Administration and Infrastructure Management
+
+Introduction:
+This document provides comprehensive guidelines for network administration, infrastructure management, and network security policies. All IT staff responsible for network operations must follow these procedures to ensure secure, reliable, and efficient network services.
+
+Network Architecture:
+
+Corporate Network Design:
+
+The company network is designed with multiple layers for security and performance:
+
+Core Layer:
+- High-performance routers and switches
+- Redundant connections for failover
+- Fiber optic backbone between buildings
+- 10 Gbps interconnects
+- Managed by Network Engineering team
+- 24/7 monitoring and alerting
+
+Distribution Layer:
+- Floor switches connecting to core
+- VLANs for department segmentation
+- Quality of Service (QoS) policies
+- Link aggregation for bandwidth
+- Access control lists (ACLs)
+- Spanning Tree Protocol (STP) for loop prevention
+
+Access Layer:
+- Desktop and WiFi access points
+- Power over Ethernet (PoE) for IP phones and cameras
+- Port security and 802.1X authentication
+- Dynamic VLAN assignment
+- DHCP and DNS services
+- Network Access Control (NAC)
+
+Network Segments:
+
+VLAN Structure:
+The network is segmented into VLANs by function and security requirements:
+
+VLAN 10 - Management (10.1.10.0/24):
+- Network device management
+- Restricted access to Network team only
+- Jump servers and administrative tools
+- Logging and monitoring systems
+
+VLAN 20 - Servers (10.1.20.0/24):
+- Production application servers
+- Database servers
+- File and print servers
+- Backup systems
+
+VLAN 30 - Workstations (10.1.30.0/23):
+- Employee desktop computers
+- Larger address space for growth
+- Standard security policies
+- Internet access allowed
+
+VLAN 40 - Wireless (10.1.40.0/23):
+- Corporate WiFi (CorpWiFi-Secure)
+- Guest WiFi (Guest-WiFi) isolated
+- Mobile device access
+- Additional security controls
+
+VLAN 50 - Voice (10.1.50.0/24):
+- VoIP phones
+- Call managers and gateways
+- QoS priority marking
+- Separate from data traffic
+
+VLAN 60 - DMZ (10.1.60.0/24):
+- Public-facing web servers
+- Email relays
+- VPN concentrators
+- Strict firewall rules
+
+VLAN 70 - IoT/Building Systems (10.1.70.0/24):
+- Security cameras
+- Access control systems
+- HVAC controls
+- Isolated from corporate network
+
+IP Address Management:
+
+IP Addressing Scheme:
+The company uses private IP address space (RFC 1918):
+- 10.1.0.0/16 - Corporate headquarters
+- 10.2.0.0/16 - Branch offices
+- 10.10.0.0/16 - Remote access VPN pool
+- 172.16.0.0/12 - Lab and development
+- 192.168.0.0/16 - Guest networks
+
+Static IP Assignments:
+Static IPs are assigned for:
+- Servers and network infrastructure
+- Printers and multifunction devices
+- Security cameras and access control
+- VoIP phones (via DHCP reservation)
+- Applications requiring fixed addressing
+
+Request static IP by submitting ticket with:
+- Device name and purpose
+- MAC address
+- Preferred VLAN/subnet
+- Business justification
+- Technical contact
+
+DHCP Services:
+Dynamic addressing for workstations and mobile devices:
+- Lease time: 8 hours for corporate, 1 hour for guest
+- DNS servers: Primary 10.1.20.10, Secondary 10.1.20.11
+- Default gateway: VLAN interface on core router
+- NTP servers: time.company.com
+- DHCP reservations for managed devices
+
+DNS Management:
+
+Internal DNS:
+Corporate DNS servers (10.1.20.10, 10.1.20.11) provide:
+- Active Directory integration
+- Forward lookup zones (company.local)
+- Reverse lookup zones
+- Internal application DNS records
+- Conditional forwarding to branch offices
+- DNS caching for performance
+
+External DNS:
+Public DNS hosted by third-party provider:
+- Company website (www.company.com)
+- Email (mail.company.com)
+- Remote access (vpn.company.com)
+- Cloud services (cloud.company.com)
+- API endpoints (api.company.com)
+
+DNS Change Procedures:
+Internal DNS changes:
+1. Submit change request ticket
+2. Include hostname, IP address, record type
+3. Network team reviews for conflicts
+4. Schedule change during maintenance window
+5. Make change and verify
+6. Document in DNS records spreadsheet
+7. Monitor for issues
+
+External DNS changes:
+1. Submit request to Hosting team
+2. Provide detailed specifications
+3. Consider TTL (Time To Live) for propagation
+4. Coordinate with application teams
+5. Verify changes after propagation (24-48 hours)
+
+Firewall Management:
+
+Firewall Architecture:
+
+The company uses next-generation firewalls for security:
+- Perimeter firewalls at internet edge
+- Internal segmentation firewalls
+- Data center firewalls
+- Active/passive high availability pairs
+- Centralized management console
+- Automated backup and configuration versioning
+
+Firewall Rule Standards:
+
+Rule Requirements:
+All firewall rules must include:
+- Descriptive name indicating purpose
+- Source zone, address, and port
+- Destination zone, address, and port
+- Action (permit/deny)
+- Service/protocol
+- Schedule if time-based
+- Logging enabled for security rules
+- Business justification
+- Requester and approver
+- Review date (annual)
+
+Rule Request Process:
+1. Submit firewall request form
+2. Specify source, destination, service, business need
+3. Security team reviews for risk
+4. Approve or request additional information
+5. Network team implements rule
+6. Test and verify connectivity
+7. Document in firewall rule database
+8. Schedule annual review
+
+Default Deny Policy:
+Firewalls operate on default deny:
+- All traffic blocked unless explicitly permitted
+- Outbound internet allowed for business purposes
+- Inbound internet blocked except DMZ services
+- Inter-VLAN traffic controlled by ACLs
+- Log denied traffic for security monitoring
+
+VPN Services:
+
+Remote Access VPN:
+
+VPN Types:
+The company provides multiple VPN options:
+
+SSL VPN (Primary):
+- Clientless web-based access
+- Email and limited applications
+- Compatible with any device
+- Multi-factor authentication required
+- Access: vpn.company.com
+
+IPSec VPN:
+- Full network access
+- AnyConnect client required
+- Windows, Mac, iOS, Android supported
+- Split tunneling enabled (only company traffic routed)
+- Bandwidth optimized
+
+Always-On VPN:
+- For executive and IT staff
+- Automatic connection when on untrusted networks
+- Seamless user experience
+- Enhanced security posture
+- Requires approval and device enrollment
+
+VPN Access Provisioning:
+1. Employee submits access request
+2. Manager approves based on business need
+3. IT creates VPN account
+4. MFA enrollment required
+5. Client software installed and configured
+6. User training on VPN usage
+7. Access reviewed quarterly
+
+VPN Usage Policies:
+- Required for all remote work
+- Must be connected when accessing company resources
+- Do not share VPN credentials
+- Report connection issues immediately
+- Disconnect when not in use (if not always-on)
+- Company monitors VPN usage for security
+
+Site-to-Site VPN:
+
+Branch Office Connectivity:
+Permanent VPN tunnels connect branch offices to headquarters:
+- IPSec VPN tunnels
+- Redundant connections for failover
+- QoS for voice and critical applications
+- Centralized internet access (via HQ)
+- Backup internet connection at each site
+- Automated failover and recovery
+
+Partner VPN:
+For business partners requiring access:
+- Separate VPN concentrator
+- Dedicated VLAN (isolated from corporate)
+- Limited access to specific resources only
+- Strong authentication required
+- Logged and monitored
+- Access reviewed monthly
+- Deprovisioned when partnership ends
+
+Wireless Network:
+
+WiFi Infrastructure:
+
+Access Point Deployment:
+- Centrally managed wireless controllers
+- Coverage surveys to minimize dead zones
+- Capacity planning for user density
+- Automatic channel selection
+- Power optimization
+- Rogue AP detection
+
+WiFi Networks:
+
+CorpWiFi-Secure (Corporate):
+- WPA2/WPA3 Enterprise encryption
+- 802.1X authentication (username/password)
+- Certificate-based for domain computers
+- Dynamic VLAN assignment by role
+- Full network access for employees
+- Managed devices prioritized
+
+CorpWiFi-IoT (Internet of Things):
+- For company IoT devices
+- MAC address authentication
+- Isolated VLAN with limited access
+- No access to corporate resources
+- Internet access only via proxy
+- Requires device registration
+
+Guest-WiFi (Visitors):
+- WPA2-Personal with rotating password
+- Captive portal for terms acceptance
+- Internet access only (no corporate access)
+- Bandwidth throttling (5 Mbps per device)
+- 4-hour session timeout
+- Content filtering enabled
+
+WiFi Security:
+- Disable SSID broadcast for sensitive networks
+- Intrusion detection and prevention
+- Rogue AP containment
+- Client isolation on guest network
+- Regular security assessments
+- Monitor for WiFi attacks (deauth, evil twin)
+
+Network Monitoring:
+
+Monitoring Tools:
+
+Network Management System (NMS):
+- Centralized monitoring dashboard
+- Device health and status
+- Bandwidth utilization graphs
+- Alerting for outages and thresholds
+- Configuration backup and versioning
+- Performance trending and reporting
+
+Monitoring Metrics:
+- Interface status (up/down)
+- CPU and memory utilization
+- Bandwidth consumption
+- Error rates and packet loss
+- Latency and jitter
+- DHCP and DNS service health
+- VPN tunnel status
+- Wireless client counts and signal strength
+
+Alert Thresholds:
+Critical (Immediate Response):
+- Device offline for 5+ minutes
+- Interface down
+- CPU over 90% for 15 minutes
+- Memory over 95%
+- VPN concentrator failure
+
+Warning (Next Business Day):
+- CPU over 75% sustained
+- Memory over 80%
+- Bandwidth utilization over 70%
+- Error rate over 0.1%
+- High temperature
+
+Performance Monitoring:
+
+Traffic Analysis:
+- NetFlow for traffic patterns
+- Top talkers and applications
+- Bandwidth hogs identification
+- Security threat detection
+- Capacity planning data
+- Baseline normal behavior
+
+Quality of Service (QoS):
+Voice/Video (Priority Queue):
+- VoIP calls
+- Video conferencing
+- Guaranteed bandwidth
+- Low latency and jitter
+
+Critical Applications:
+- Business-critical applications
+- Database queries
+- API traffic
+- Medium latency tolerance
+
+Best Effort:
+- Web browsing
+- Email
+- File transfers
+- No guarantees
+
+Network Maintenance:
+
+Change Management:
+
+Change Types:
+Standard Changes (Pre-approved):
+- Password resets
+- Adding firewall rules (approved template)
+- Access point moves
+- Cable moves/adds/changes
+- DHCP reservations
+
+Normal Changes (Approval Required):
+- Router/switch configurations
+- Firewall policy changes
+- DNS modifications
+- VLAN creation
+- Routing protocol changes
+
+Emergency Changes (Post-approval):
+- Security incident response
+- Critical outage resolution
+- May be implemented first, documented after
+
+Change Process:
+1. Create change request in ticketing system
+2. Describe change and business justification
+3. List affected systems and risk assessment
+4. Provide rollback plan
+5. Schedule during maintenance window
+6. Obtain approvals (Network Manager + CAB for major changes)
+7. Implement change and test
+8. Document actual results
+9. Close change ticket
+
+Maintenance Windows:
+- Standard window: Saturday 2 AM - 6 AM
+- Emergency: As needed with notification
+- No changes during business-critical periods (month/quarter/year-end)
+- Advance notice required (72 hours minimum)
+
+Backup and Recovery:
+
+Configuration Backups:
+All network device configurations backed up:
+- Daily automated backups
+- Stored on dedicated backup server
+- Off-site replication
+- 90-day retention
+- Version control for changes
+- Encrypted at rest and in transit
+
+Disaster Recovery:
+Network disaster recovery plan includes:
+- Spare hardware inventory
+- Configuration templates
+- Automated provisioning scripts
+- Failover procedures
+- Recovery time objectives (RTO): 4 hours
+- Recovery point objectives (RPO): 24 hours
+- Annual DR testing
+
+Network Documentation:
+
+Required Documentation:
+- Network topology diagrams (logical and physical)
+- IP address management spreadsheet
+- VLAN and subnet documentation
+- Firewall rule database
+- DNS records inventory
+- Cable plant documentation (patch panels, runs)
+- Equipment inventory (serial numbers, licenses)
+- Configuration standards and templates
+- Change log and audit trail
+- Maintenance and support contracts
+
+Documentation Standards:
+- Update within 48 hours of changes
+- Store in centralized repository (SharePoint)
+- Version control and approval workflow
+- Restricted access for security
+- Annual review and validation
+- Include contact information
+- Diagram conventions consistent
+
+Network Security:
+
+Access Control:
+
+Physical Security:
+- Network equipment in locked rooms/cabinets
+- Server room access badge-controlled
+- Visitor escort required
+- Security cameras monitoring critical areas
+- Environmental monitoring (temp, humidity, water)
+- Fire suppression systems
+
+Logical Security:
+- Role-based access control (RBAC)
+- Least privilege principle
+- Separate admin accounts for privileged access
+- Password complexity requirements
+- Multi-factor authentication for admin access
+- Session timeouts and automatic logout
+- Disable unnecessary services/protocols
+
+Security Monitoring:
+
+Intrusion Detection/Prevention (IDS/IPS):
+- Monitor traffic for malicious patterns
+- Block known threats automatically
+- Alert on suspicious activity
+- Signature updates daily
+- Custom rules for specific threats
+- Integration with SIEM
+
+Security Information and Event Management (SIEM):
+- Centralized log collection
+- Correlation and analysis
+- Real-time alerting
+- Compliance reporting
+- Forensic investigation
+- Retention per policy (7 years)
+
+Vulnerability Management:
+- Quarterly vulnerability scans
+- Patch critical vulnerabilities within 30 days
+- High severity within 60 days
+- Track remediation progress
+- Penetration testing annually
+- Third-party security assessments
+
+Compliance:
+
+Regulatory Requirements:
+Network must comply with:
+- PCI DSS (if processing credit cards)
+- HIPAA (if handling health information)
+- SOX (if publicly traded)
+- GDPR (if serving EU customers)
+- Industry-specific regulations
+
+Audit Support:
+Network team supports audits by providing:
+- Network diagrams and documentation
+- Firewall and ACL reviews
+- Access control reports
+- Change logs and approvals
+- Security scan results
+- Penetration test reports
+- Remediation plans
+
+Troubleshooting Procedures:
+
+Systematic Approach:
+
+Step 1 - Define the Problem:
+- What is not working?
+- Who is affected?
+- When did it start?
+- What changed recently?
+- Error messages or symptoms?
+
+Step 2 - Gather Information:
+- Check monitoring systems
+- Review logs
+- Test from multiple locations
+- Verify physical connections
+- Check device status
+
+Step 3 - Identify Possible Causes:
+- Recent changes
+- Known issues or outages
+- Hardware failure
+- Configuration errors
+- Capacity or performance issues
+- Security incidents
+
+Step 4 - Test Hypotheses:
+- Start with most likely cause
+- Test one variable at a time
+- Use diagnostic tools (ping, traceroute, etc.)
+- Isolate the problem
+
+Step 5 - Implement Solution:
+- Make configuration changes
+- Replace failed hardware
+- Clear errors or reboot
+- Verify fix resolves issue
+- Monitor for recurrence
+
+Step 6 - Document:
+- Update ticket with findings
+- Document root cause
+- Record solution
+- Update knowledge base
+- Share lessons learned
+
+Common Issues:
+
+No Network Connectivity:
+- Check physical cable and link lights
+- Verify switch port enabled
+- Check for port security violations
+- Verify VLAN assignment
+- Check spanning tree status
+- Review firewall logs
+
+Slow Network Performance:
+- Check bandwidth utilization
+- Look for broadcast storms
+- Verify duplex and speed settings
+- Check for errors on interface
+- Review QoS policies
+- Test from multiple locations
+
+Can't Access Specific Resource:
+- Verify DNS resolution
+- Check routing between VLANs
+- Review firewall rules
+- Confirm service is running
+- Test direct IP connection
+- Check ACLs
+
+Escalation Procedures:
+
+Level 1 - Help Desk:
+- Basic troubleshooting
+- Check known issues
+- Reboot devices
+- Escalate if unresolved in 15 minutes
+
+Level 2 - Network Support:
+- Advanced troubleshooting
+- Configuration changes
+- Log analysis
+- Escalate if unresolved in 1 hour
+
+Level 3 - Network Engineering:
+- Complex issues
+- Design changes
+- Vendor engagement
+- Root cause analysis
+
+Emergency Contacts:
+- Network Operations Center: ext. 4999
+- On-call Network Engineer: 1-800-XXX-XXXX
+- Network Manager: email/phone from directory
+- Vendor Support: Contact list in documentation
+
+Training and Development:
+
+Network Team Training:
+Required certifications and training:
+- Cisco CCNA (Network Associate)
+- CompTIA Network+
+- Security certifications (CCNA Security, Security+)
+- Firewall vendor training
+- Wireless specialist training
+- Annual security awareness
+
+Professional Development:
+- Conference attendance (Cisco Live, VMworld)
+- Online training (Pluralsight, CBT Nuggets)
+- Vendor webinars
+- Industry publications
+- Lab environment for testing
+- Cross-training on different technologies
+
+Contact Information:
+
+Network Support:
+- Email: network@company.com
+- Phone: Ext. 4800
+- Emergency: Ext. 4999
+- Portal: helpdesk.company.com
+
+Network Team:
+- Network Manager: ext. 4801
+- Senior Network Engineer: ext. 4802
+- Network Administrator: ext. 4803
+- Wireless Specialist: ext. 4804
+
+Maintaining a secure, reliable, and high-performing network is critical to business operations. Thank you for following these procedures and best practices!

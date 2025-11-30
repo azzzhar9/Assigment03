@@ -1,0 +1,110 @@
+System Access and Permissions Policy
+
+This policy governs access to company systems, applications, and data.
+
+Access Principles:
+- Least Privilege: Users receive minimum access necessary for their role
+- Need-to-Know: Access granted based on business need
+- Regular Review: Access reviewed and updated quarterly
+- Separation of Duties: Critical functions require multiple approvals
+
+New Employee Access:
+- Access request submitted by manager during onboarding
+- IT provisions accounts within 24 hours
+- Standard access includes:
+  * Email account
+  * Company network
+  * HR portal
+  * Time tracking system
+  * Standard software suite
+- Department-specific access requires manager approval
+
+Access Request Process:
+1. Employee or manager submits access request
+2. Manager approves business justification
+3. IT reviews security implications
+4. Additional approvals for sensitive systems
+5. Access granted and documented
+6. User notified of access
+
+System Categories:
+
+1. Public Systems:
+- Company website
+- Public knowledge base
+- No authentication required
+
+2. Employee Systems:
+- Email, calendar, collaboration tools
+- HR portal, time tracking
+- Standard business applications
+- Available to all employees
+
+3. Department Systems:
+- Department-specific applications
+- Requires manager approval
+- Examples: CRM, project management, specialized tools
+
+4. Restricted Systems:
+- Financial systems
+- HRIS with sensitive data
+- Customer databases
+- Requires additional approvals and training
+
+5. Administrative Systems:
+- Server management
+- Network infrastructure
+- Database administration
+- IT staff only, requires special training
+
+Access Levels:
+
+- Read-Only: View data only, no modifications
+- Standard User: Create, read, update own records
+- Power User: Additional permissions for role
+- Administrator: Full system access (IT only)
+
+Multi-Factor Authentication (MFA):
+- Required for all remote access
+- Required for sensitive systems
+- Required for administrative accounts
+- Can be enforced for all users
+
+Access Reviews:
+- Quarterly access reviews by managers
+- Annual comprehensive access audit
+- Access removed for terminated employees within 24 hours
+- Inactive accounts deactivated after 90 days
+
+Shared Accounts:
+- Generally prohibited
+- Exceptions require IT and Security approval
+- Must be documented and regularly reviewed
+- Password changes required quarterly
+
+Third-Party Access:
+- Vendor access requires business justification
+- Limited time access preferred
+- Monitored and logged
+- Removed when no longer needed
+
+Access Termination:
+- Immediate upon employee termination
+- Manager must notify IT before termination
+- Exit interview includes access review
+- All company data must be returned
+
+Emergency Access:
+- Break-glass procedures for emergencies
+- Requires manager and IT approval
+- Logged and reviewed
+- Access revoked after emergency resolved
+
+Compliance:
+- Access logs maintained for audit
+- Regular compliance reviews
+- SOX compliance for financial systems
+- GDPR compliance for personal data
+
+Questions? Contact IT Security at security@company.com
+
